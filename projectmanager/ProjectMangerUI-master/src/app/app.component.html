@@ -1,0 +1,22 @@
+<div style="text-align:Left; padding-left:50px; padding-right:50px;">
+  <h1 style="color: rgb(175, 15, 15); text-align: center">
+      Project Manager
+  </h1>
+  <table class="table">
+    <tr>
+        <td class="tdSpace">
+            <a [routerLink]="'./AddProject'"><strong><h4><u>Add Project</u></h4></strong></a>
+        </td>
+        <td class="tdSpace">
+            <a [routerLink]="'./AddTask'"><strong><h4><u>Add Task</u></h4></strong></a>
+        </td>
+        <td class="tdSpace">
+            <a [routerLink]="'./AddUser'"><strong><h4><u>Add User</u></h4></strong></a>
+        </td>
+        <td>
+            <a [routerLink]="'./ViewTask'"><strong><h4><u>View Task</u></h4></strong></a>
+        </td>
+    </tr>
+</table>  
+<router-outlet></router-outlet>
+</div>
